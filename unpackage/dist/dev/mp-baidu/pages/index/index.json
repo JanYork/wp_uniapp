@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "component": true,
+  "usingComponents": {
+    "ui-sys": "/ui/components/ui-sys/ui-sys",
+    "ui-navbar": "/ui/components/ui-navbar/ui-navbar",
+    "ui-swiper": "/ui/components/ui-swiper/ui-swiper",
+    "ui-title": "/ui/components/ui-title/ui-title"
+  }
+}

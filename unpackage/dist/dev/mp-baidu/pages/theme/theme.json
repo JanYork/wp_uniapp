@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "default",
+  "component": true,
+  "usingComponents": {
+    "ui-sys": "/ui/components/ui-sys/ui-sys",
+    "ui-title": "/ui/components/ui-title/ui-title",
+    "ui-change-theme": "/ui/components/ui-change-theme/ui-change-theme",
+    "ui-text-size": "/ui/components/ui-text-size/ui-text-size"
+  }
+}

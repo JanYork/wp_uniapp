@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationStyle": "default",
+  "component": true,
+  "usingComponents": {
+    "ui-sys": "/ui/components/ui-sys/ui-sys"
+  }
+}

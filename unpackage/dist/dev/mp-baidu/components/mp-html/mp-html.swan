@@ -1,0 +1,1 @@
+<view class="{{[(selectable?'_select ':'')+'_root']}}" style="{{(containerStyle)}}" id="_root"><block s-if="{{!nodes[0]}}"><slot></slot></block><block s-else><node vue-id="ecba71b2-1" childs="{{nodes}}" opts="{{[lazyLoad,loadingImg,errorImg,showImgMenu]}}" name="span"></node></block></view>

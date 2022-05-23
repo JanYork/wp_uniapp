@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/comments/comments",
+    "pages/detail/detail",
+    "pages/hot/hot",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/page/page",
+    "pages/pay/pay",
+    "pages/poster/poster",
+    "pages/readlog/readlog",
+    "pages/search/search",
+    "pages/topic/topic",
+    "pages/theme/theme",
+    "pages/webpage/webpage",
+    "pages/tags/tags",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "pageOrientation": "portrait",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#959595",
+    "selectedColor": "#118fff",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": " "
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": " "
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": " "
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": " "
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "usingComponents": {}
+}

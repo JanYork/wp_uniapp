@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.ui-radio {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1em 0 0.14286em;
+}
+.ui-radio .ui-radio-input {
+  margin: 0 0.5em 0 0.14286em;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.ui-radio .ui-radio-input::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  background-color: currentColor;
+  border-radius: 50%;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.ui-radio .ui-radio-input.cur {
+  position: relative;
+}
+.ui-radio .ui-radio-input.cur::before {
+  width: 10px;
+  height: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.ui-radio:last-child {
+  margin: 0 0.14286em;
+}
+.ui-radio.check .ui-radio-input::before {
+  font-family: 'colorui';
+  content: '\e69f';
+  width: 18px;
+  height: 18px;
+  font-size: 0%;
+  background-color: transparent;
+}
+.ui-radio.check .ui-radio-input.cur::before {
+  width: 18px;
+  height: 18px;
+  font-size: 1em;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  text-align: center;
+  line-height: 18px;
+}
+.ui-radio.line .ui-radio-input.cur::before {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background-color: var(--ui-BG);
+}
+.ui-radio.line .ui-radio-input.cur::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: inherit;
+  border-radius: 50%;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.ui-radio.lg .ui-radio-input {
+  font-size: 18px;
+}
+.ui-radio.img {
+  position: relative;
+  margin: 0 0.28572em 0 0.28572em;
+}
+.ui-radio.img .ui-radio-input {
+  width: 42px;
+  height: 42px;
+  border-radius: 0px;
+  position: absolute;
+  margin: 0;
+  left: -1px;
+  top: -1px;
+}
+.ui-radio.img .ui-radio-input::before {
+  width: 40px;
+  height: 40px;
+  border-radius: 10rpx;
+}
+.ui-radio.img .ui-radio-input.cur {
+  width: 44px;
+  height: 44px;
+  top: -2px;
+  left: -2px;
+  border-radius: 7px !important;
+  opacity: 0.8;
+}
+.ui-radio.img .ui-radio-img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.ui-radio.card {
+  display: flex;
+  margin: 30rpx;
+  padding: 30rpx;
+  position: relative;
+  border-radius: 10rpx !important;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.ui-radio.card .ui-radio-bg {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  border-radius: 20rpx !important;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  background-color: var(--ui-BG);
+}
+.ui-radio.card .ui-radio-input {
+  position: relative;
+  z-index: 1;
+  margin-right: 0;
+}
+.ui-radio.card .ui-radio-bg::after {
+  content: '';
+  position: absolute;
+  width: calc(200% - 16px);
+  height: calc(200% - 16px);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  background-color: var(--ui-BG) !important;
+  left: 4px;
+  top: 4px;
+  border-radius: 28rpx !important;
+  z-index: 0;
+}
+.ui-radio.card .ui-radio-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
