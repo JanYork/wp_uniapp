@@ -1,3 +1,20 @@
+## wp_uniapp
+WordPress可多端编译小程序+H5+APP
+## 来源于微慕小程序
+微慕小程序文档，https://docs.minapper.com/minfree/2304152
+## 微慕
+微慕官网：https://www.minapper.com
+
+微慕商城：https://shops.minapper.com
+
+问答论坛：https://forum.minapper.com
+
+安装文档：https://docs.minapper.com
+## 说明
+此程序非本人开发，仅在微慕小程序的基础上进行了删改，用以实现快速通过百度小程序和QQ小程序的审核。
+
+---
+
 ## WordPress多端应用
 后端使用开源博客建站系统wordpress和微慕小程序开源版插件，前端使用uniapp+colorui。
  
