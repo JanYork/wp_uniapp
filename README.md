@@ -20,7 +20,9 @@ WordPress可多端编译小程序+H5+APP
 后端使用开源博客建站系统wordpress和微慕小程序开源版插件，前端使用uniapp+colorui。
 
 ## 删改后图鉴
-<img src="https://a.ideaopen.cn/JanYork/8LcZJM7f.png" width = "300px" height = "600px"><img src="https://a.ideaopen.cn/JanYork/naOVrgKC.png" width = "300px" height = "600px"><img src="https://a.ideaopen.cn/JanYork/B0RK2J6Z.png" width = "300px" height = "600px">
+<img src="https://a.ideaopen.cn/JanYork/8LcZJM7f.png" width = "300px" height = "600px">
+<img src="https://a.ideaopen.cn/JanYork/naOVrgKC.png" width = "300px" height = "600px">
+<img src="https://a.ideaopen.cn/JanYork/B0RK2J6Z.png" width = "300px" height = "600px">
 
  
 本项目可以直接同步wordpress的内容并生成H5、微信小程序、QQ小程序、支付宝小程序、百度小程序、头条抖音小程序、安卓APP、苹果APP及快应用。
